@@ -1,0 +1,47 @@
+label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    max-width: 600px;
+    /* background-color: rgba(0, 0, 0, 0.5); Optional: to ensure the form background stands out */
+    border-radius: 8px; /* Optional: for rounded corners */
+}
+
+form input, form textarea {
+    width: 100%; /* Ensure input and textarea fill the width of the form */
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Fixed the border color syntax */
+    color: #f4f4f4;
+    border-radius: 5px; /* Optional: for rounded corners */
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #333; /* Example button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Optional: for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555; /* Example button hover color */
+}

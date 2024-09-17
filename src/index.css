@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    /* cursor: url('./assets/mouse-cursor.ico') 20 20,auto; */
+}
+
+#trail {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.trail-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ff0000; /* Bright color */
+  border-radius: 50%;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+h1,h4,p,a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.btn{
+  padding:12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color:#222;
+  border: 1px solid #fff;
+  cursor:pointer;
+}
+.btn-light{
+  background: rgba(255,255,255,0.2);
+  color:#fff;
+  transition:0.3s;
+}
